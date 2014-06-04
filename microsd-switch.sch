@@ -6792,6 +6792,8 @@ Source: www.kingbright.com</description>
 <sheets>
 <sheet>
 <plain>
+<text x="76.2" y="17.78" size="2.1844" layer="91">License CC-BY-NC-SA 3.0</text>
+<text x="76.2" y="12.7" size="2.1844" layer="91">(C) Joel Fernandes</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="81.28" y="45.72" rot="MR180"/>
