@@ -1,6 +1,7 @@
 # microSD card switcher
 This board was created by [Joel Fernandez](http://www.linuxinternals.org/joel/) and a link to his blog post is given below
 [MicroSD card remote switch](http://www.linuxinternals.org/blog/2014/06/04/a-microsd-card-remote-switcher/)
+[Demo Video](https://youtu.be/StpIihVQ7oM)
 
 ## Features
 - Connect one microSD card to 2 computers( or boards)
