@@ -18,7 +18,7 @@ This board was created by [Joel Fernandez](http://www.linuxinternals.org/joel/) 
 - [microSD slot](https://www.sparkfun.com/products/127) (1)
 - [Male headers](https://www.sparkfun.com/products/116) (2)
 
-## Building switch
+## Building the switch program
     # Install libftdi
     apt-get update -y
     apt-get install -y libftdi-dev libftdi1 libftd1-dev libftdipp1-2v5 libftdipp1-dev
