@@ -22,7 +22,7 @@ This board was created by [Joel Fernandez](http://www.linuxinternals.org/joel/) 
 ## Building the switch program
     # Install libftdi
     apt-get update -y
-    apt-get install -y libftdi-dev libftdi1 libftd1-dev libftdipp1-2v5 libftdipp1-dev
+    apt-get install -y libftdi-dev libftdi1 libftdi1-dev libftdipp1-2v5 libftdipp1-dev
     
     # Install pkg-config
     apt-get install -y pkg-config
