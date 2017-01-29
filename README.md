@@ -20,6 +20,15 @@ This board was created by [Joel Fernandez](http://www.linuxinternals.org/joel/) 
 - [FTDI Cable](https://www.sparkfun.com/products/9717)
 
 ## Building the switch program
+### Using docker
+If you have docker installed, just run the commands given below to get the built executable. The built executable works on 64 bit linux only.
+    
+    export MY_WORKSPACE=<you git workspace>
+    chmod 777 $MY_WORKSPACE                                              # Need to do this so that root user in the container 
+                                                                         # can write to the folder
+    docker run -v $MY_WORKSPACE/sw:/workspace nbalagopal/microsd_switch  # 'switch' will be in your workspace.
+
+### Directly on Linux
     # Install libftdi
     apt-get update -y
     apt-get install -y libftdi-dev libftdi1 libftdi1-dev libftdipp1-2v5 libftdipp1-dev
