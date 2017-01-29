@@ -36,4 +36,4 @@ This board was created by [Joel Fernandez](http://www.linuxinternals.org/joel/) 
     #   -lftdi1 -lusb-1.0
     
     # Build using gcc
-    gcc $(pkg-config --cflags libftdi1)  -o switch  switch.c  $(pkg-config --libs libftdi1)
+    gcc $(pkg-config --cflags libftdi)  -o switch  switch.c  $(pkg-config --libs libftdi)
