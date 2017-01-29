@@ -22,14 +22,18 @@ This board was created by [Joel Fernandez](http://www.linuxinternals.org/joel/) 
     # Install libftdi
     apt-get update -y
     apt-get install -y libftdi-dev libftdi1 libftd1-dev libftdipp1-2v5 libftdipp1-dev
+    
     # Install pkg-config
     apt-get install -y pkg-config
+    
     # Verify libftdi installation
     pkg-config --cflags libftdi1
     # Output:
     #   -I/usr/include/libftdi1 -I/usr/include/libusb-1.0
+    
     pkg-config --libs libftdi1
     # Output: 
     #   -lftdi1 -lusb-1.0
+    
     # Build using gcc
     gcc $(pkg-config --cflags libftdi1)  -o switch  switch.c  $(pkg-config --libs libftdi1)
