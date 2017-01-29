@@ -17,6 +17,7 @@ This board was created by [Joel Fernandez](http://www.linuxinternals.org/joel/) 
 - [SN74CBT3257D - 4 bit FET Mux/DeMux](http://www.mouser.com/ProductDetail/Texas-Instruments/SN74CBT3257D) (2)
 - [microSD slot](https://www.sparkfun.com/products/127) (1)
 - [Male headers](https://www.sparkfun.com/products/116) (2)
+- [FTDI Cable](https://www.sparkfun.com/products/9717)
 
 ## Building the switch program
     # Install libftdi
